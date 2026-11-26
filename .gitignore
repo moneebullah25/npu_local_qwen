@@ -1,0 +1,62 @@
+
+# Python virtual environments
+npu_env/
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OpenVINO model exports and downloaded models
+models/
+*.bin
+*.xml
+*.onnx
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# OpenVINO compilation and inference caches
+cache/
+npu_cache/
+npu_cache_*/
+cache_diag_*/
+*.blob
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+temp/
+tmp/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
